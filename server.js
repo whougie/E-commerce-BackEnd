@@ -18,11 +18,3 @@ sequelize.sync({ force: false })
     console.log(`App listening on port ${PORT}!`);
   });
 })
-
-// Be able to connect using the .env file
-//XX Be able to run the schema file
-// Be able to run the seeds
-// Setup Express to use Sequelize
-// Setup Sequelize to use the Models with correct attributes
-// The routes for products or tags should work
-// Able to used CRUD for routes
